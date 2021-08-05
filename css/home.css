@@ -1,0 +1,112 @@
+*{
+    font-family: 'Baloo Da 2', cursive;
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* header */
+
+#header h1{
+    font-size: 3.5rem;
+    text-align: center;
+    background-color: #19a777;
+    color: white;
+    padding: 20px 10px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+}
+#navbar ul{
+    display: flex;
+}
+#navbar li{
+    list-style: none;
+    padding: 5px 0px;
+}
+#navbar button{
+        position: absolute;
+        display: inline-block;
+        padding: 2px 5px;
+        right: 25px;
+        font-size: 1.4rem;
+        top: 137px;
+        border: 1px solid black;
+    }
+    #navbar button a{
+    text-decoration: none;
+    background-color: #bf1e01;
+    color: white;
+}
+    #navbar button a:hover{
+    background-color:white;
+    color: black;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+    font-size: 1.4rem;
+}
+.item a:hover{
+    background-color: rgb(53, 121, 98);
+}
+#main{
+    text-align: center;
+}
+#review{
+    padding: 20px 0px;
+}
+#review h1{
+    padding: 10px 0px;
+    font-size: 3rem;
+}
+#review h2{
+    font-size: 2.5rem;
+}
+.videos{
+    padding: 5px 10px;
+    background-color: #272727;
+    color: white;
+}
+.videos h2{
+    padding-bottom: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.video{
+    padding: 5px 15px;
+    height: 280px;
+    width: 30%;
+}
+/* owner */
+#owner{
+    background-color: #385858;
+    color: white;
+}
+#owner h1{
+    font-size: 3rem;
+    padding: 5px 0px;
+}
+#owner h2{
+    font-size: 2.5rem;
+    padding-bottom: 5px;
+}
+#owner img{
+    padding: 10px 10px;
+    height: 150px;
+    width: 150px;
+}
+#owner p{
+    font-size: 1.5rem;
+    padding: 10px 10px;
+}
+footer div{
+    background-color: black;
+    color: #e4e482;
+    padding: 6px 5px;
+    margin-top: 1px;
+    font-size: 1.2rem;
+}
